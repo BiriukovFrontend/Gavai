@@ -3,8 +3,8 @@ $(function () {
   $('.header__slider').slick({
     infinite: true,
     fade: true,
-    prevArrow: '<img class="slider-arrows slider-arrows__left" src="../img/arrows-left.svg" alt=""></img>',
-    nextArrow: '<img class="slider-arrows slider-arrows__right" src="../img/arrows-right.svg" alt=""></img>',
+    prevArrow: '<img class="slider-arrows slider-arrows__left" src="./img/arrows-left.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__right" src="./img/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-dots',
   });
 
@@ -18,8 +18,8 @@ $(function () {
   $('.surf-slider').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
-    prevArrow: '<img class="slider-arrows slider-arrows__left" src="../img/arrows-left.svg" alt=""></img>',
-    nextArrow: '<img class="slider-arrows slider-arrows__right" src="../img/arrows-right.svg" alt=""></img>',
+    prevArrow: '<img class="slider-arrows slider-arrows__left" src="./img/arrows-left.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__right" src="./img/arrows-right.svg" alt=""></img>',
     asNavFor: '.slider-map',
   });
 
@@ -34,8 +34,8 @@ $(function () {
   $('.holder__slider, .shop__slider').slick({
     infinite: true,
     fade: true,
-    prevArrow: '<img class="slider-arrows slider-arrows__left" src="../img/arrows-left.svg" alt=""></img>',
-    nextArrow: '<img class="slider-arrows slider-arrows__right" src="../img/arrows-right.svg" alt=""></img>',
+    prevArrow: '<img class="slider-arrows slider-arrows__left" src="./img/arrows-left.svg" alt=""></img>',
+    nextArrow: '<img class="slider-arrows slider-arrows__right" src="./img/arrows-right.svg" alt=""></img>',
   });
 
 
